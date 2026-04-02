@@ -16,20 +16,19 @@ It evaluates different machine learning models and generates plots to compare pr
 
 ## Project Structure
 
-system-load-prediction/
-├─ data/processed/processed_metrics.csv # Input dataset
-├─ models/saved_models/ # Trained ML models
-├─ figures/ # Predicted vs actual plots
-├─ scripts/ # Python scripts
-│ ├─ collect_metrics.py # Gather system metrics
-│ ├─ preprocess.py # Clean and structure data
-│ ├─ feature_engineering.py # Select and create features
-│ ├─ train_models.py # Train ML models
-│ ├─ evaluate.py # Predict and save plots
-├─ reports/ # Optional summaries
-├─ README.md # Project documentation
-├─ requirements.txt # Python dependencies
-
+**Root Folder**
+- `data/processed/processed_metrics.csv` → Input dataset  
+- `models/saved_models/` → Trained ML models  
+- `figures/` → Predicted vs actual plots  
+- `scripts/` → Python scripts  
+  - `collect_metrics.py` → Gather system metrics  
+  - `preprocess.py` → Clean and structure data  
+  - `feature_engineering.py` → Select/create features  
+  - `train_models.py` → Train ML models  
+  - `evaluate.py` → Predict and save plots  
+- `reports/` → Optional summaries or analysis  
+- `README.md` → Project documentation  
+- `requirements.txt` → Python dependencies
 
 ---
 
