@@ -27,7 +27,7 @@ def train():
     X = df.drop(columns=["timestamp", target])
     y = df[target]
 
-    # Time-series split (no shuffle)
+ 
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, shuffle=False
     )
